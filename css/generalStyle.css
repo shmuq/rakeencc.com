@@ -137,22 +137,25 @@ header {
 }
 /* search bar*/
 #search {
-	position: absolute;
+	position: relative;
 	right: 0;
 	margin-top: .4vw;
-	margin-right: 9.8vw;
+	margin-left: 15.6vw;
 }
 #searchInput {
 	width: 15vw;
 	height: 2vw;
 	background: white;
 	border: solid 1px aliceblue;
+	font-size: 1vw;
 }
 #searchBtn {
 	width: 5vw;
+	height: 2vw;
 	background: aliceblue;
 	border: solid aliceblue;
 	border-radius: .3vw;
+	font-size: 1vw;
 }
 #searchBtn:hover {
 	background: #f1f1f1;
@@ -190,19 +193,18 @@ footer h1{
 footer div ul {
 	width: 100%;
 	height: 100%;
-	position: absolute;
+	position: relative;
 	margin:0;
-	top: 19.5vw;
-	left: 12.5vw;
+	left: -1.8vw;
 }
 footer p{
 	margin: 0;
 }
 #copyRights {
-	width: 33%;
-	position: absolute;
-	top: 19vw;
-	left: 50vw;
+	position: relative;
+	width: 21vw;
+	height: 2vw;
+	top: 9vw;
 }
 /* page content */
 #body {
