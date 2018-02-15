@@ -1,0 +1,223 @@
+/* body*/
+body {
+	margin: 0;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 12vw;
+}
+/*banner*/
+#banner {
+    width: 100%;
+    height: 9vw;
+    display: flex;
+    background: white url("../img/bannerBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180vw 19vw;
+}
+#logo {
+	width: 15vw;
+	margin-left: 2.3vw;
+}
+#companyName {
+	margin-left: 16vw;
+	text-shadow: .4vw .4vw .4vw #272727ad, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#rakeen {
+	font-size: 6vw;
+	margin: 0;
+	color: #00BCD4;
+}
+#ctc {
+	font-size: 1.4vw;
+	margin: 0;
+	color: #00BCD4;
+}
+#logo:hover {
+	cursor: pointer;
+}
+#rakeen:hover {
+	cursor: pointer;
+}
+#socialMedia {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	margin-left: 80vw;
+	margin-top: 2.5vw;
+}
+#gpLogo {
+	width: 2.1vw;
+	height: 2.17vw;
+}
+#fbLogo {
+	width: 2.5vw;
+	height: 2.4vw;
+}
+#ytLogo {
+	width: 5vw;
+	height: 4vw;
+	position: absolute;
+	margin-left: 3.3vw;
+}
+#lang {
+	width: 3vw;
+	display: flex;
+	font-size: .6vw;
+	position: absolute;
+	margin-top: 2.5vw;
+	letter-spacing: .06vw;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: #00BCD4;
+}
+#lang a {
+	color: #00BCD4;
+	margin: 0 .2vw;
+	margin-top: 1.2vw;
+	letter-spacing: .1vw;
+	font-size: .85vw;
+	text-decoration: underline;
+}
+#socialMedia img:hover {
+	cursor: pointer;
+}
+/*navigation bar*/
+#navigationBar {
+    width: 100%;
+    height: 3vw;
+    display: flex;
+    background: #2b2828;
+}
+#navigationBar div {
+	width: 10%;
+	height: 19%;
+}
+#home{
+	margin-left: 3.5vw;
+}
+#navigationBar div a {
+	width: 100%;
+	height: 2vw;
+	padding: .5vw 0;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: aliceblue;
+	font-size: 1.5vw;
+}
+#navigationBar div a:hover {
+	background: #f1f1f1;
+  	color: black;
+}
+/*drop content */
+#navigationBar div div {
+	display: none;
+	position: absolute;
+	width: 12.8vw;
+	height: 6vw;
+	background: #2b2828;
+}
+#navigationBar div div a {
+	width: 77.5%;
+	height: 2vw;
+	padding: .5vw 1.45vw;
+	text-align: left;
+	font-size: 1.25vw;
+}
+#projects:hover #projectsList {
+	display: block;
+}
+/* sticky */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+/* search bar*/
+#search {
+	position: absolute;
+	right: 0;
+	margin-top: .4vw;
+	margin-right: 9.8vw;
+}
+#searchInput {
+	width: 15vw;
+	height: 2vw;
+	background: white;
+	border: solid 1px aliceblue;
+}
+#searchBtn {
+	width: 5vw;
+	background: aliceblue;
+	border: solid aliceblue;
+	border-radius: .3vw;
+}
+#searchBtn:hover {
+	background: #f1f1f1;
+	border: solid #f1f1f1;
+	cursor: pointer;
+}
+/* footer */
+footer {
+	width: 100%;
+	height: 13vw;
+	display: flex;
+	background: #56585a;
+}
+footer div{
+	width: 12vw;
+	height: auto;
+	margin: 1vw 0 0 0;
+	margin-left: 14vw;
+	padding: 0;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	font-size: .9vw;
+	text-decoration: underline;
+	color: grey;
+}
+footer div a {
+	width: 100%;
+	text-decoration: underline;
+	color: grey;
+}
+footer h1{
+	font-size: 1.3vw;
+}
+footer div ul {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin:0;
+	top: 19.5vw;
+	left: 12.5vw;
+}
+footer p{
+	margin: 0;
+}
+#copyRights {
+	width: 33%;
+	position: absolute;
+	top: 19vw;
+	left: 50vw;
+}
+/* page content */
+#body {
+	width: 80%;
+	margin: auto;
+}
+#body div {
+	background: cornflowerblue;
+	margin: 1vw 0;
+	padding: 1vw
+}
+#body h1{
+	font-size: 2vw;
+}
+#body p {
+	font-size: 1.3vw;
+	text-align: justify;
+}
