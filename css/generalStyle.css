@@ -44,23 +44,22 @@ header {
 #socialMedia {
 	display: flex;
 	align-items: center;
-	position: absolute;
-	margin-left: 80vw;
-	margin-top: 2.5vw;
+	position: relative;
+	margin-left: 28vw;
 }
 #gpLogo {
 	width: 2.1vw;
-	height: 2.17vw;
+	height: 2.1vw;
 }
 #fbLogo {
-	width: 2.5vw;
+	width: 2.4vw;
 	height: 2.4vw;
 }
 #ytLogo {
-	width: 5vw;
-	height: 4vw;
-	position: absolute;
-	margin-left: 3.3vw;
+	width: 4.9vw;
+	height: 3.4vw;
+	position: relative;
+	margin-left: -1.3vw;
 }
 #lang {
 	width: 3vw;
@@ -92,7 +91,7 @@ header {
 }
 #navigationBar div {
 	width: 10%;
-	height: 19%;
+	height: 3vw;
 }
 #home{
 	margin-left: 3.5vw;
